@@ -696,8 +696,7 @@ class _LiveProgressConsoleCard extends StatelessWidget {
                   onPressed: () {
                     final dump = state.logs
                         .map((l) => '[${l.formattedTime}] ${l.message}')
-                        .join('
-');
+                        .join('\n');
                     Clipboard.setData(ClipboardData(text: dump));
                     showNexusToast(
                       context,
