@@ -1,0 +1,7 @@
+# Copy this file to android/key.properties (ignored by git) and fill in your values.
+# Generate a release keystore using: ./scripts/generate_keystore.sh
+
+storePassword=CHANGE_ME_STORE_PASSWORD
+keyPassword=CHANGE_ME_KEY_PASSWORD
+keyAlias=githubnexus
+storeFile=github_nexus_release.jks

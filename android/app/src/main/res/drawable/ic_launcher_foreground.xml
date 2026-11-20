@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Subtle luminous ring -->
+    <path
+        android:pathData="M54,23 A31,31 0 1,1 53.99,23 Z"
+        android:strokeWidth="2.4"
+        android:strokeColor="#6660A5FA"
+        android:fillColor="#00000000" />
+    <!-- Hub connectors -->
+    <path
+        android:pathData="M54,54 L36,39 M54,54 L72,39 M54,54 L54,75"
+        android:strokeWidth="5.2"
+        android:strokeLineCap="round"
+        android:strokeColor="#FFFFFFFF" />
+    <!-- Top-left node -->
+    <path
+        android:pathData="M36,33 A6,6 0 1,1 35.99,33 Z"
+        android:fillColor="#FF93C5FD" />
+    <!-- Top-right node -->
+    <path
+        android:pathData="M72,33 A6,6 0 1,1 71.99,33 Z"
+        android:fillColor="#FFC4B5FD" />
+    <!-- Bottom node -->
+    <path
+        android:pathData="M54,69 A6,6 0 1,1 53.99,69 Z"
+        android:fillColor="#FF6EE7B7" />
+    <!-- Center hub node -->
+    <path
+        android:pathData="M54,46.5 A7.5,7.5 0 1,1 53.99,46.5 Z"
+        android:fillColor="#FFFFFFFF" />
+</vector>
