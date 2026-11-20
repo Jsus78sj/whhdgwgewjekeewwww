@@ -1,0 +1,40 @@
+# .gitignore
+
+# ============================================================
+# Secrets — NEVER commit these once the repo is public
+# ============================================================
+android/key.properties
+android/app/*.jks
+android/app/*.keystore
+*.jks
+*.keystore
+
+# ============================================================
+# Flutter / Dart
+# ============================================================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+*.g.dart
+
+# ============================================================
+# Android
+# ============================================================
+android/.gradle/
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+android/**/GeneratedPluginRegistrant.java
+*.iml
+.idea/
+
+# ============================================================
+# IDE / OS
+# ============================================================
+.vscode/
+.DS_Store
+Thumbs.db
