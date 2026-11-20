@@ -122,7 +122,7 @@ class GitHubApiClient {
               ),
             ) {
     _dio.interceptors.add(_RateLimitTrackingInterceptor(onRateLimitUpdated));
-    _dio.interceptors.add(_ExponentialBackoffRetryInterceptor(_dio));
+    _dio.interceptors.add(_ExponentialBackoffRetryInterceptor(_dio, maxRetries: 3));
   }
 
   Options _authOptions(String token) => Options(
