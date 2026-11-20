@@ -137,7 +137,7 @@ class StreamingZipInspector {
 
         final isDosDirectory = (externalAttrs & 0x10) != 0;
         final isDirectory = rawPath.endsWith('/') ||
-            rawPath.endsWith('\') ||
+            rawPath.endsWith('\\') ||
             isDosDirectory;
 
         if (!isDirectory) {
@@ -304,7 +304,7 @@ class StreamingZipInspector {
   }
 
   static String? _sanitizeZipPath(String raw) {
-    var path = raw.replaceAll('\', '/').trim();
+    var path = raw.replaceAll('\\', '/').trim();
     while (path.startsWith('/')) {
       path = path.substring(1);
     }
