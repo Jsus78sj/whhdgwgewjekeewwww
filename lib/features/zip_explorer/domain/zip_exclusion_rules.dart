@@ -148,8 +148,7 @@ class ZipExclusionRules {
 
   static List<String> parseCustomPatternString(String raw) {
     return raw
-        .split(RegExp(r'[,
-]+'))
+        .split(RegExp(r'[,\n]+'))
         .map((s) => s.trim())
         .where((s) => s.isNotEmpty)
         .toList();
