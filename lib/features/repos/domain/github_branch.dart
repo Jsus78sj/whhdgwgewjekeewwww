@@ -64,7 +64,7 @@ String? validateGitBranchName(String raw) {
       branch.endsWith('.lock')) {
     return 'صيغة اسم الفرع غير صالحة في Git (تجنب .. أو // أو @{ أو .lock).';
   }
-  final forbiddenChars = RegExp(r'[\s~^:?*\[\]\]');
+  final forbiddenChars = RegExp(r'[\s~^:?*\[\]\\]');
   if (forbiddenChars.hasMatch(branch)) {
     return 'يحتوي اسم الفرع على مسافات أو رموز غير مسموحة في Git.';
   }
