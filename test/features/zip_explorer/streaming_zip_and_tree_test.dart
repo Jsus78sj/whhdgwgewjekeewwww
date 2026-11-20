@@ -5,7 +5,6 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:github_nexus/features/zip_explorer/data/streaming_zip_inspector.dart';
 import 'package:github_nexus/features/zip_explorer/domain/zip_entry_meta.dart';
 import 'package:github_nexus/features/zip_explorer/domain/zip_exclusion_rules.dart';
-import 'package:github_nexus/features/zip_explorer/domain/zip_tree_node.dart';
 import 'package:github_nexus/features/zip_explorer/presentation/zip_explorer_controller.dart';
 
 /// Builds a valid binary ZIP archive supporting both Stored (0) and Deflated (8) entries.
