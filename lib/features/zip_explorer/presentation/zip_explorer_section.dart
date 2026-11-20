@@ -6,7 +6,6 @@ import '../../../core/widgets/glass_panel.dart';
 import '../../../core/widgets/nexus_toast.dart';
 import '../../deploy/presentation/deploy_execution_panel.dart';
 import '../../repos/domain/deploy_target.dart';
-import '../domain/zip_entry_meta.dart';
 import '../domain/zip_exclusion_rules.dart';
 import '../domain/zip_tree_node.dart';
 import 'zip_explorer_controller.dart';
