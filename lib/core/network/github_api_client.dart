@@ -407,10 +407,7 @@ class GitHubApiClient {
       repo: repo,
       path: 'README.md',
       bytes: Uint8List.fromList(
-        utf8.encode('# $repo
-
-Initialized with GitHub Nexus.
-'),
+        utf8.encode('# $repo\n\nInitialized with GitHub Nexus.\n'),
       ),
       message: 'chore: initialize repository with README.md',
       branchName: branchName,
