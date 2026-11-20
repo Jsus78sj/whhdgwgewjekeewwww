@@ -743,7 +743,7 @@ class _LiveProgressConsoleCard extends StatelessWidget {
                     ),
                   )
                 : ListView.builder(
-                    controller: _logScrollController,
+                    controller: logScrollController,
                     shrinkWrap: true,
                     itemCount: state.logs.length,
                     itemBuilder: (_, idx) {
